@@ -1,72 +1,69 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+  "name": "Nusabase API Docs",
+  "description": "Nusabase backend API, relay API, and deployment documentation.",
+  "logo": {
+    "light": "/images/nusabase-logo.svg",
+    "dark": "/images/nusabase-logo.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/nusabase-icon.svg",
+  "colors": {
+    "primary": "#16A34A"
+  },
   "navigation": {
-    "pages": [
+    "languages": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
+        "language": "en",
+        "tabs": [
+          {
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Quick Start",
+                "pages": [
+                  "en/getting-started/pricing",
+                  "en/getting-started/billing-rules",
+                  "en/getting-started/error-codes"
+                ]
+              },
+              {
+                "group": "Agent Integration Guides",
+                "pages": [
+                  "en/guides/agent-integrations",
+                  "en/guides/agent-integrations-claude-code",
+                  "en/guides/agent-integrations-github-copilot",
+                  "en/guides/agent-integrations-github-copilot-cli",
+                  "en/guides/agent-integrations-kilo-code",
+                  "en/guides/agent-integrations-workbuddy-codebuddy",
+                  "en/guides/agent-integrations-opencode",
+                  "en/guides/agent-integrations-openclaw",
+                  "en/guides/agent-integrations-hermes",
+                  "en/guides/agent-integrations-ccswitch"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "API Reference",
+            "groups": [
+              {
+                "group": "Entry Guides",
+                "pages": [
+                  "en/getting-started/overview",
+                  "en/getting-started/authentication",
+                  "en/getting-started/first-request",
+                  "en/getting-started/compatibility"
+                ]
+              },
+              {
+                "group": "AI Relay API",
+                "openapi": "en/openapi/relay-api.mintlify.json"
+              }
+            ]
+          }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
     ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
 }
