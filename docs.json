@@ -4,8 +4,8 @@
   "name": "Nusabase API Docs",
   "description": "Nusabase backend API, relay API, and deployment documentation.",
   "logo": {
-    "light": "/images/nusabase-logo.svg",
-    "dark": "/images/nusabase-logo.svg"
+    "light": "/images/nusabase-icon.svg",
+    "dark": "/images/nusabase-icon.svg"
   },
   "favicon": "/images/nusabase-icon.svg",
   "colors": {
