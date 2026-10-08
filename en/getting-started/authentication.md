@@ -99,3 +99,9 @@ The server validates:
 | `429` | Rate limit exceeded | Reduce concurrency or retry later |
 
 Next: [First Request Example](/en/getting-started/first-request).
+
+## References
+
+- [First Request Example](/en/getting-started/first-request)
+- [Compatibility Formats](/en/getting-started/compatibility)
+- [Error Codes](/en/getting-started/error-codes)

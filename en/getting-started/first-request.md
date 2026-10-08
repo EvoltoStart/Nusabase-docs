@@ -206,3 +206,10 @@ After your first request succeeds, continue with:
 | [Models and Pricing](/en/getting-started/pricing) | Choosing a model and checking input, output, cache, and other prices. |
 | [Billing Rules](/en/getting-started/billing-rules) | Understanding usage-based, per-call, duration-based, resolution-based, and tiered billing. |
 | [Error Codes](/en/getting-started/error-codes) | Debugging failures by `HTTP status` and `error.code`. |
+
+## References
+
+- [Authentication](/en/getting-started/authentication)
+- [Compatibility Formats](/en/getting-started/compatibility)
+- [Models and Pricing](/en/getting-started/pricing)
+- [Error Codes](/en/getting-started/error-codes)

@@ -22,14 +22,10 @@ Hermes Agent can select model providers through `hermes model` or `hermes setup`
 Linux / macOS / WSL2:
 
 ```bash
-curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
 ```
 
-Windows PowerShell:
-
-```powershell
-iex (irm https://hermes-agent.nousresearch.com/install.ps1)
-```
+Windows users can run the same installer from WSL2. Do not use a PowerShell URL unless it is provided by the Hermes Agent project.
 
 Reload your shell, then check:
 

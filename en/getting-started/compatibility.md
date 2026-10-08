@@ -75,3 +75,9 @@ These are best when you already have an existing provider-specific request forma
 
 - New integrations: start with `Core API`
 - Existing Claude or Gemini SDKs: use `Compatibility API`
+
+## References
+
+- [Authentication](/en/getting-started/authentication)
+- [First Request Example](/en/getting-started/first-request)
+- [Error Codes](/en/getting-started/error-codes)

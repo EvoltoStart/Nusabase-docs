@@ -137,3 +137,9 @@ Some compatible endpoints do not return `error.code` and only mark the error cat
 5. If `message` includes a request ID, include it when reporting the issue so logs can be located quickly.
 
 Next, see [Authentication](/en/getting-started/authentication) for auth failures, or [First Request Example](/en/getting-started/first-request) for the minimal request format.
+
+## References
+
+- [Authentication](/en/getting-started/authentication)
+- [First Request Example](/en/getting-started/first-request)
+- [Compatibility Formats](/en/getting-started/compatibility)

@@ -35,7 +35,7 @@ curl https://api.nusabase.io/v1/chat/completions \
   -H "Authorization: Bearer sk-your_api_key" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "gpt-4o-mini",
+    "model": "qwen3.5-flash",
     "messages": [
       {"role": "user", "content": "hello"}
     ]
@@ -43,3 +43,9 @@ curl https://api.nusabase.io/v1/chat/completions \
 ```
 
 Next, read [Authentication](/en/getting-started/authentication), then complete [First Request Example](/en/getting-started/first-request).
+
+## References
+
+- [Authentication](/en/getting-started/authentication)
+- [First Request Example](/en/getting-started/first-request)
+- [Compatibility Formats](/en/getting-started/compatibility)

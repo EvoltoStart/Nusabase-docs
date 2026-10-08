@@ -285,3 +285,9 @@ Prices are in USD / million tokens.
 5. Free quotas, discounts, and converted prices are provider-specific and should be treated as estimates unless confirmed in the current provider console.
 
 Next, read [Authentication](/en/getting-started/authentication) and [First Request Example](/en/getting-started/first-request) to make your first call.
+
+## References
+
+- [Billing Rules](/en/getting-started/billing-rules)
+- [Authentication](/en/getting-started/authentication)
+- [First Request Example](/en/getting-started/first-request)
